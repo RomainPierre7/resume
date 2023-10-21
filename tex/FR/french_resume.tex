@@ -20,6 +20,8 @@
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{tex/format/awesome-cv}
 
+\usepackage[french]{babel}
+
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
@@ -57,15 +59,14 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo{./examples/profile.png}
-\name{Claud D.}{Park}
-\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
-
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+\name{Romain}{PIERRE}
+\position{Élève-ingénieur en informatique {\enskip\cdotp\enskip} Stage}
+\address{210 Av. de la Mission Haut-Brion, 33400 Talence, FRANCE}
+\mobile{(+33) 7 68 23 84 02}
+\email{romain.pierre@enseirb-matmeca.fr}
+%\homepage{none}
+\github{RomainPierre7}
+\linkedin{RomainPierre7}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -77,7 +78,7 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
 
-\quote{``Be the change that you want to see in the world."}
+\quote{``Recherche un stage d'application de 3 mois (juillet à septembre 2024)"}
 
 
 %-------------------------------------------------------------------------------
@@ -91,7 +92,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Curriculum Vitae}
+  {Romain PIERRE~~~·~~~Curriculum Vitae}
   {\thepage}
 
 
@@ -99,15 +100,12 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-%\input{cv/education.tex}
-%\input{cv/skills.tex}
+\input{education.tex}
 \input{experience.tex}
-%\input{cv/extracurricular.tex}
-%\input{cv/honors.tex}
-%\input{cv/presentation.tex}
-%\input{cv/writing.tex}
-%\input{cv/committees.tex}
-
+\input{project.tex}
+\newpage
+\input{skill.tex}
+\input{interest.tex}
 
 %-------------------------------------------------------------------------------
 \end{document}
