@@ -15,4 +15,4 @@ seeEN:
 	evince english_resume.pdf
 
 clean:
-	rm -f *aux *log
+	rm -f *aux *log tex/FR/*aux tex/FR/*log tex/FR/*fls tex/FR/*fdb* tex/EN/*aux tex/EN/*log tex/EN/*fls tex/EN/*fdb*
