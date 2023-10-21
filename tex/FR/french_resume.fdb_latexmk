@@ -1,0 +1,15 @@
+# Fdb version 4
+["pdflatex"] 1697908640 "/home/romain/Projets/LaTex/resume/tex/FR/french_resume.tex" "french_resume.pdf" "french_resume" 1697908640 2
+  "/etc/texmf/web2c/texmf.cnf" 1697140868 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/romain/Projets/LaTex/resume/tex/FR/french_resume.tex" 1697908639 3677 89829a8bfa2c3f0a488bec3c9872c279 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1693172360 40357 c95f5d5e031b5c7040b426833c11f2e0 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1693172360 40357 c95f5d5e031b5c7040b426833c11f2e0 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1697905524 7908130 10d17d8e488442a81b950ed9e7654a22 ""
+  "french_resume.aux" 1697908640 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "french_resume.tex" 1697908639 3677 89829a8bfa2c3f0a488bec3c9872c279 ""
+  "tex/format/awesome-cv.cls" 0 -1 0 ""
+  (generated)
+  "french_resume.aux"
+  "french_resume.log"
+  "french_resume.pdf"
+  (rewritten before read)

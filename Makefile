@@ -1,15 +1,18 @@
 all: FR EN
 
 FR:
-	pdflatex tex/french_resume.tex
-	rm -f *aux *log
+	xelatex tex/FR/french_resume.tex
+	make clean
 
 EN:
-	pdflatex tex/english_resume.tex
-	rm -f *aux *log
+	xelatex tex/EN/english_resume.tex
+	make clean
 
 seeFR:
 	evince french_resume.pdf
 
 seeEN:
 	evince english_resume.pdf
+
+clean:
+	rm -f *aux *log
