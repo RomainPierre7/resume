@@ -1,28 +1,28 @@
-FR_DOCUMENT_NAME=Romain_PIERRE_CV.tex
-EN_DOCUMENT_NAME=Romain_PIERRE_resume.tex
+FR_DOCUMENT_NAME=Romain_PIERRE_CV
+EN_DOCUMENT_NAME=Romain_PIERRE_resume
 
 all: pdf
 
 pdf:
-	xelatex tex/FR/$(FR_DOCUMENT_NAME)
-	xelatex tex/EN/$(EN_DOCUMENT_NAME)
+	xelatex tex/FR/$(FR_DOCUMENT_NAME).tex
+	xelatex tex/EN/$(EN_DOCUMENT_NAME).tex
 	make clean
 
 FR:
-	xelatex tex/FR/$(FR_DOCUMENT_NAME)
+	xelatex tex/FR/$(FR_DOCUMENT_NAME).tex
 	make clean
 	make seeFR
 
 EN:
-	xelatex tex/EN/$(EN_DOCUMENT_NAME)
+	xelatex tex/EN/$(EN_DOCUMENT_NAME).tex
 	make clean
 	make seeEN
 
 seeFR:
-	evince french_resume.pdf
+	evince $(FR_DOCUMENT_NAME).pdf
 
 seeEN:
-	evince english_resume.pdf
+	evince $(EN_DOCUMENT_NAME).pdf
 
 clean:
 	rm -f *aux *log
